@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Open+Sans:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Nunito Sans', 'Open Sans', sans-serif;
+}
+
+nav {
+    font-family: 'Arial', 'Open Sans', sans-serif;
+}
+
+.dot {
+    height: 4px;
+    width: 4px;
+    background-color: #804ede;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+header {
+    padding-top: 4.5rem;
+}
+
+.btn-purple {
+    color: #fff;
+    background-color: #804ede;
+    border-color: #804ede;
+}
+
+.btn-purple:hover {
+    color: #fff;
+    background-color: #6f42c1;
+    border-color: #6f42c1;
+}
+
+.btn-outline-purple {
+    background-color: #fff;
+    border-color: #6f42c1;
+}
+
+.btn-outline-purple:hover {
+    color: #fff;
+    background-color: #6f42c1;
+}
+
+.btn-header:link,
+.btn-header:visited {
+    display: inline-block;
+    padding: 10px 30px;
+    transition: background-color 0.2s, transform 0.2s;
+    margin: 0 10px;
+}
+
+.btn-header:hover,
+.btn-header:active {
+    transform: scale(1.1);
+    background-color: #6f42c1;
+}
+
+hr.divider{
+    border-top: 3px solid #804ede;
+    border-radius: 5px;
+}
+
+.shadow-bottom {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.card-header {
+    background-color: #804ede;
+}
+
+.team-section {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+    text-align: center;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.team-image {
+    border-radius: 50%;
+    max-width: 150px;
+    margin-bottom: 20px;
+}
+
+/* Menghilangkan box shadow default bootstrap */
+input[type=text]{
+    border: 1px solid grey !important;
+}
+
+input[type=text]:focus{
+    box-shadow: none;
+    border: 1px solid #804ede !important;
+}
+
+input[type=email]{
+    border: 1px solid grey;
+}
+
+input[type=email]:focus{
+    box-shadow: none;
+    border: 1x solid #804ede;
+}
+
+textarea{
+    resize: none;
+    border: 1px solid grey !important;
+}
+
+textarea:focus{
+    box-shadow: none !important;
+    border: 1px solid #804ede !important;
+}
+
+@media screen and (max-width: 768px) {
+    hr.divider {
+        display: none;
+    }
+
+    .card {
+        padding-bottom: 20px;
+    }
+}
