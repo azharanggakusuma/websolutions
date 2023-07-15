@@ -360,7 +360,7 @@
         <div class="container">
             <div class="row" style="height: 5rem;">
             <hr>
-            <p class="text-center text-light">© 2023 R-Tech Solutions All rights reserved.</p>
+            <p class="text-center text-light">© 2023 Web Solutions All rights reserved.</p>
         </div>
     </footer>
 
